@@ -12,7 +12,7 @@ const Score = require('./models/score'); // Correct capitalization
  // Import the User model
 
 // MongoDB connection
-mongoose.connect('mongodb+srv://rizwan2001:rizwan2001@cluster0.6ucejfl.mongodb.net/ecounit?retryWrites=true&w=majority&appName=Cluster0', {
+mongoose.connect("mongodb", {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 })
